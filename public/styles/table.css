@@ -1,0 +1,45 @@
+@media (min-width:759px){
+    header{
+        flex-direction: row;
+        padding: 30px 10px;
+        padding-left: 20px;
+    }
+    header figure {
+        width: 600px;
+    }
+    main .section__mis-skils {
+        flex-direction: row;
+    }
+    main .section__mis-skils article {
+        padding-left: 3rem;
+    }
+    main .section__mis-skils article h2 {
+        font-size: 1.6rem;
+    }
+    main .section__que-puedo-aportar {
+        padding: 30px 40px;
+    }
+    main .section__que-puedo-aportar h2 {
+        font-size: 1.6rem;
+    }
+    main .section__que-puedo-aportar p {
+        font-size: 1.3rem;
+    }
+    aside {
+        padding: 30px 40px;
+    }
+    aside h2 {
+        font-size: 1.6rem;
+    }
+    aside p {
+        font-size: 1.3rem;
+    }
+    footer{
+        padding: 30px 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer article {
+        margin: 0 10px;
+    }
+}

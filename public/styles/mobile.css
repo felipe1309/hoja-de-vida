@@ -1,0 +1,145 @@
+:root {
+  --primary-blue: #2d7bea;
+  --white: #f9f9f9;
+  --redPrimari: #eb2632;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.br__separador-sections {
+  width: 80%;
+  text-align: center;
+  color: var(--redPrimari);
+  background: var(--redPrimari);
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary-blue);
+}
+header figure {
+  margin-top: 30px;
+  width: 250px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 0 var(--white);
+}
+header figure img {
+  width: 100%;
+  object-fit: cover;
+}
+header h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--white);
+  line-height: 2.2rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+main section {
+  width: 100%;
+}
+main .section__mis-skils {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+main .section__mis-skils article {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+main .section__mis-skils article h2 {
+  font-size: 1.4rem;
+}
+main .section__mis-skils article ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+main .section__mis-skils article ul li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+main .section__que-puedo-aportar {
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+main .section__que-puedo-aportar h2 {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+main .section__que-puedo-aportar p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+aside {
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+aside h2 {
+  font-size: 1.4rem;
+}
+aside p {
+  font-size: 1.1rem;
+}
+aside p,
+aside h2 {
+  margin-top: 10px;
+}
+footer {
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: var(--primary-blue);
+  margin: 0%;
+  padding-bottom: 20px;
+}
+footer article {
+  margin-top: 20px;
+}
+footer article h3 {
+  color: var(--white);
+  font-size: 1.3rem;
+}
+footer article ul {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+footer article ul li {
+  margin-top: 5px;
+  color: var(--white);
+  font-size: 1.1rem;
+}
+footer article ul li a {
+  color: var(--white);
+  font-size: 1.1rem;
+}

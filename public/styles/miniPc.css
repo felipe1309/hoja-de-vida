@@ -1,0 +1,24 @@
+@media(min-width:1399px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #br__main-aside{
+    display: none;
+  }
+  header,main,aside,footer {
+    height: 100%;
+  }
+  header figure {
+    width: 500px;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  aside h2, aside p {
+    text-align: left;
+    font-weight: bold;
+  }
+}
